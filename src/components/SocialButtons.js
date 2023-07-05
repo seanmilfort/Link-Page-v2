@@ -11,6 +11,10 @@ const socials = [
     url: "https://blog.seanmilfort.com/",
   },
   {
+    text: "Threads",
+    url: "https://www.threads.net/@seanmilfort/",
+  },
+  {
     text: "Bluesky",
     url: "https://bsky.app/profile/seanmilfort.com/",
   },
