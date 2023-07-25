@@ -5,13 +5,14 @@ import SocialLinks from  './components/SocialLinks';
 import SocialButtons from './components/SocialButtons';
 
 import { extendTheme } from "@chakra-ui/react";
-import "@fontsource/roboto";
-import "@fontsource/montserrat/300.css"
+// import "@fontsource/roboto";
+// import "@fontsource/montserrat/300.css"
+import "@fontsource/lato";
 
 const customTheme = extendTheme({
   fonts: {
-      heading: "roboto",
-      body: "Montserrat"
+      heading: "Lato",
+      body: "Lato"
   }
 })
 
