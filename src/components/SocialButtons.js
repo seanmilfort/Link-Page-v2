@@ -11,16 +11,12 @@ const socials = [
     url: "https://blog.seanmilfort.com/",
   },
   {
-    text: "Threads",
-    url: "https://www.threads.net/@seanmilfort/",
-  },
-  {
     text: "Bluesky",
     url: "https://bsky.app/profile/seanmilfort.com/",
   },
   {
     text: "Resume",
-    url: "https://seanmilfort.com/files/Sean_Milfort_Resume.pdf",
+    url: "https://seanmilfort.com/static/media/Sean_Milfort_Resume.0f84b725185fb6cd8834.pdf",
   },
   {
     text: "Website",

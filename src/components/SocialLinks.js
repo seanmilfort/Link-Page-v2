@@ -3,23 +3,28 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { HStack, Box } from "@chakra-ui/react";
 import {
-    faTwitter,
+    faXTwitter,
     faLinkedin,
     faInstagram,
     faYoutube,
     faTiktok,
     faGithub,
-    faMastodon
+    faMastodon,
+    faThreads
   } from "@fortawesome/free-brands-svg-icons";
 
 const socials = [
     {
-      icon: faTwitter,
+      icon: faXTwitter,
       url: "https://twitter.com/seanmilfort",
     },
     {
       icon: faInstagram,
       url: "https://www.instagram.com/seanmilfort/",
+    },
+    {
+      icon: faThreads,
+      url: "https://www.threads.net/@seanmilfort/",
     },
     {
       icon: faYoutube,
