@@ -4,7 +4,7 @@ import profilepicture from '../images/seanmilfort_profile.jpg'
 
 const Header = () => {
 return (
-    <Box marginTop="5em" >
+    <Box marginTop="5em" justifyContent={"center"} >
         <VStack>
             <Avatar size="2xl" name="Sean Milfort" src={profilepicture} />
             <Heading size="xl">Hello, I'm Sean Milfort!</Heading>

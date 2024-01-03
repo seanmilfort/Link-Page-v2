@@ -7,8 +7,8 @@ const socials = [
     url: "https://news.seanmilfort.com/",
   },
   {
-    text: "Blog",
-    url: "https://blog.seanmilfort.com/",
+    text: "Latest Blog Post",
+    url: "https://medium.com/@seanmilfort/1-year-with-the-pixel-watch-841f10bbf817",
   },
   {
     text: "Bluesky",
@@ -16,7 +16,7 @@ const socials = [
   },
   {
     text: "Resume",
-    url: "https://seanmilfort.com/static/media/Sean_Milfort_Resume.0f84b725185fb6cd8834.pdf",
+    url: "https://resume.seanmilfort.com",
   },
   {
     text: "Website",
@@ -29,7 +29,7 @@ const SocialButtons = () => {
     return (<Box marginTop="2em" >
         <VStack spacing={4}>
             {socials.map(socialMediaLinks => {
-                return <Box key={socialMediaLinks.url}><a href={socialMediaLinks.url}><Button style={{color: "black", backgroundColor: "#E5EFE7", width: "400px"}}>{socialMediaLinks.text}</Button></a></Box>
+                return <Box key={socialMediaLinks.url}><a href={socialMediaLinks.url}><Button style={{color: "black", backgroundColor: "#E5EFE7", width: "400px", maxWidth:"90%"}}>{socialMediaLinks.text}</Button></a></Box>
             })}
         </VStack>
     </Box>)
