@@ -8,7 +8,7 @@ const socials = [
   },
   {
     text: "Latest Blog Post",
-    url: "https://medium.com/@seanmilfort/1-year-with-the-pixel-watch-841f10bbf817",
+    url: "https://blog.seanmilfort.com/my-goals-for-2024-b04c00914fa1?sk=8619f5ea364c1515883b86066e0d8cb0",
   },
   {
     text: "Bluesky",
