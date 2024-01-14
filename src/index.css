@@ -15,9 +15,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   justify-content: center;
+  overflow-y:auto;
+  min-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+main {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }

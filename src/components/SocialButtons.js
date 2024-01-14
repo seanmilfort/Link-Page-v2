@@ -1,5 +1,6 @@
 import React from "react";
 import { VStack, Box, Button } from "@chakra-ui/react";
+import resume from '../files/Sean_Milfort_Resume.pdf'
 
 const socials = [
   {
@@ -16,7 +17,7 @@ const socials = [
   },
   {
     text: "Resume",
-    url: "https://resume.seanmilfort.com",
+    url: resume,
   },
   {
     text: "Website",
