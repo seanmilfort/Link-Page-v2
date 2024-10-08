@@ -47,7 +47,7 @@ const socialsTop = [
     },
     {
       icon: faMastodon,
-      url: "https://techhub.social/@seanmilfort",
+      url: "https://mastodon.social/@seanmilfort",
     },
     {
         icon: faGithub,
